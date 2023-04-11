@@ -18,7 +18,6 @@ const NewsList: React.FC = () => {
 
     fetchNews();
   }, []);
-  console.log(news);
   return (
     <div>
       <h1>News</h1>
